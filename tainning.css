@@ -21,6 +21,11 @@
     border-radius: 10px;
     padding: 10px;
 }
+.sub-items > a {
+    color: rgb(5, 154, 212);
+    text-decoration: none;
+    cursor: pointer;
+}
 
 h3{
     padding-top: 15px;
