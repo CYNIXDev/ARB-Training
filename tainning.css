@@ -16,6 +16,12 @@
     max-width: 220px;
     justify-content: center;
 }
+.sub-items{
+    border: solid  rgba(5, 153, 212, 0.438) 1px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
 h3{
     padding-top: 15px;
     margin: 0;
