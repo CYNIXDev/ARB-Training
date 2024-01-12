@@ -1,3 +1,49 @@
+.nav-bar-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin-bottom: 50px;
+}
+.nav-bar-container>a>img {
+    height: 50px;   
+}
+
+.nav-bar {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    
+}
+
+.nav-bar-items {
+    width: fit-content;
+
+}
+.nav-bar-items>a {
+    text-decoration: none;
+}
+
+.nav-bar-item p{
+    text-align: center;
+
+}
+
+.header{
+    display: flex;
+    background-color: rgb(9, 69, 138);
+    height: 150px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
 .container{
     display: grid;
     grid-template-columns: repeat(4,280px);
