@@ -29,13 +29,11 @@ body{
     width: fit-content;
 
 } */
-.nav-bar-items>a {
-    text-decoration: none;
-}
-
 .nav-bar-item, a{
     text-align: center;
     height: 100%;
+    text-decoration: none;
+    color: #525252;
 }
 
 .header{
@@ -228,6 +226,10 @@ h3{
 }
 
 @media (max-width: 920px) {
+    header{
+        margin-top: 2rem;
+    }
+
     .container{
         display: grid;
         grid-template-columns: repeat(2,280px);
@@ -241,6 +243,7 @@ h3{
         box-shadow: none;
         margin-bottom: 50px;
         flex-wrap: wrap;
+        margin-bottom: 1.3rem;
     }
     
     .nav-bar{
@@ -264,6 +267,9 @@ h3{
     .nav-bar-items>a{
         display: block;
         height: 100%;
+    }
+    #listtog{
+        cursor: pointer;
     }
 
 
