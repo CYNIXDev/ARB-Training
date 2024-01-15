@@ -48,7 +48,13 @@ function compareDates() {
  // Call the compareDates function
 compareDates();
 
-
+$("#listtog").click(function (e) { 
+  if ($(".nav-bar").css("display") === "flex") {
+    $(".nav-bar").css("display","none")
+  }else{
+    $(".nav-bar").css("display","flex")
+  }
+});
 
 
 
